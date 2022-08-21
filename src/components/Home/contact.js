@@ -1,16 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
 import {
-    AiFillGithub,
-    AiOutlineTwitter,
-    AiFillInstagram,
-  } from "react-icons/ai";
-  import { FaLinkedinIn } from "react-icons/fa";
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
-
-export const Contact=()=>{
-    return (
-        <>
-        <Container>
+export const Contact = () => {
+  return (
+    <>
+      <Container id="contact">
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Contact</h1>
@@ -28,7 +27,7 @@ export const Contact=()=>{
                   <AiFillGithub />
                 </a>
               </li>
-             
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/vishal-mandloii/"
@@ -39,10 +38,28 @@ export const Contact=()=>{
                   <FaLinkedinIn />
                 </a>
               </li>
+              <br />
+             
             </ul>
+            <br/>
+            OR
+          <Container className="text-break"  fluid style={{margin:"auto", justifyContent:"center",textAlign:"center"}}>
+          <h6 className="project-heading text-break fs-5"  >
+                Gmail :{" "}
+                <a style={{ fontSize: "25px" ,marginRight:"20px"}} className="purple fs-5" href={`mailto:${"email"}`}>
+                  {"vishalmandloi62@gmail.com"}
+                </a>
+              </h6>
+              <h6 className="project-heading text-break fs-5">
+                Phone :{" "}
+                <a className="purple fs-5" style={{ fontSize: "25px" }}  href={`tel:${"phone"}`}>
+                  {8770367726}
+                </a>
+              </h6>
+          </Container>
           </Col>
         </Row>
-        </Container>
-        </>
-    )
-}
+      </Container>
+    </>
+  );
+};

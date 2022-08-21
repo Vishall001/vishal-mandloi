@@ -7,7 +7,7 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
+    rgba(.17, 16, 16, 0.678),
     rgba(12, 10, 22, 0.863)
   );
 
@@ -257,9 +257,10 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
+  
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }

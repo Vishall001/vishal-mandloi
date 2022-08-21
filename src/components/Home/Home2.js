@@ -14,8 +14,8 @@ function Home2() {
         <Container>
           <Row>
             <Col md={8} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>
-                LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              <h1 style={{ fontSize: "2.6em",textAlign:"left" }}>
+                ABOUT <span className="purple">ME</span>
               </h1>
               <p className="home-about-body">
                 A result-oriented and self-motivated Software developer, Constant learner and ability to adapt to new technologies.
@@ -50,7 +50,7 @@ function Home2() {
       </Container>
       <About />
       <Projects />
-      <Github />
+      {/* <Github /> */}
       <Contact />
     </>
   );
