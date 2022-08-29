@@ -36,7 +36,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
             {/* <Col md={4} style={{marginTop:"-120px"}} className="myAvtar"> */}
-            <Tilt>
+            <Tilt >
               <img    src={myImg} className="img-fluid rounded-circle" style={{ maxHeight: "380px",marginTop:"2em" }} alt="avatar" />
             </Tilt>
           </Col>

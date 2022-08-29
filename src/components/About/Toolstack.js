@@ -7,6 +7,7 @@ import {
   SiVercel,
   SiBootstrap,
   SiNetlify,
+  SiChakraui,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -23,6 +24,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiChakraui />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
