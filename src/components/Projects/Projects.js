@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chatify from "../../Assets/Projects/farfetch.png";
 import bitsOfCode from "../../Assets/Projects/overstock.png";
-
+import booking from "../../Assets/Projects/booking.png";
 function Projects() {
   return (
     <Container fluid className="project-section" id="project">
@@ -17,6 +17,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={booking}
+              isBlog={false}
+              title="Booking.com"
+              description="Booking.com is a Dutch online travel agency for lodging reservations & other travel products, and a subsidiary of Booking Holdings. It is headquartered in Amsterdam. The website has over 28 million listings. The site is available in 43 languages."
+              ghLink="https://github.com/Vishall001/booking"
+              demoLink="https://clever-churros-0ca8ea.netlify.app/"
+              tech="React, Redux, ChakraUI,Axios"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -40,6 +51,7 @@ function Projects() {
               tech="Javascript, HTML, CSS"
             />
           </Col>
+         
         </Row>
       </Container>
     </Container>
