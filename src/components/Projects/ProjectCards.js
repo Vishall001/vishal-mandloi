@@ -13,6 +13,10 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "start" }}>
           {props.description}
         </Card.Text>
+        <Card.Text style={{ textAlign: "start" }}>My work :
+          {props.work}
+        </Card.Text>
+
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
@@ -31,7 +35,8 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
-        <h5 style={{textAlign:"start",marginTop:"10px"}}>Techstack : {props.tech}</h5>
+        <h6 style={{textAlign:"start",marginTop:"20px"}}>Techstack : {props.tech}</h6>
+
       </Card.Body>
     </Card>
   );
