@@ -57,10 +57,7 @@ function Techstack() {
         <SiMongodb />
         <h5>Mongodb</h5>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiAliexpress />
-        <h5>Express</h5>
-      </Col> */}
+    
        
     </Row>
   );
