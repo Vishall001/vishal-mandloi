@@ -52,6 +52,7 @@ function Home2() {
       <Projects />
       {/* <Github /> */}
       <Contact />
+      
     </>
   );
 }
