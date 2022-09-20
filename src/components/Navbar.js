@@ -17,6 +17,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiTwotoneContacts,
+  AiTwotonePhone,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -91,7 +92,7 @@ function NavBar() {
             <Nav.Item>
               <Nav>
               <Link style={{ color: "white", marginTop: "1em" ,cursor:"pointer" }} to="contact">
-                <AiTwotoneContacts
+                <AiTwotonePhone
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Contact
@@ -106,7 +107,7 @@ function NavBar() {
                   color: "white",
                   marginTop: "20px",
                 }}
-                href="https://drive.google.com/file/d/1R8OYrYuNcNU5SHRwWPLeIIY2x3xST6nC/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pSwcSLocpLMeYaGZdc4wDmznpqlib9wm/view?usp=sharing"
                 target={"_blank"}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} />
