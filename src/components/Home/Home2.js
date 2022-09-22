@@ -34,10 +34,10 @@ function Home2() {
                 My field of interest is building  &nbsp;
                 <i>
                   <b className="purple">
-                  full fletch and user-friendly application.
+                    full fletch and user-friendly application.
                   </b>
                 </i>
-              
+
               </p>
             </Col>
             <Col md={4} className="myAvtar">
@@ -52,7 +52,7 @@ function Home2() {
       <Projects />
       {/* <Github /> */}
       <Contact />
-      
+
     </>
   );
 }
