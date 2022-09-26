@@ -107,7 +107,7 @@ function NavBar() {
                   color: "white",
                   marginTop: "20px",
                 }}
-                href="https://drive.google.com/file/d/1btxu19ZvXcq6q7vOhQW5dWc2uAyobx54/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hFgGYf6BXD3lcaoTw3h1kVWDHXMEO-Ic/view?usp=sharing"
                 target={"_blank"}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} />
