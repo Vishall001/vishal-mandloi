@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 // import { Link } from "react-router-dom";
+import pdf from "../Assets/Vishal-Mandloi-Resume.pdf";
 import {
   Link,
   DirectLink,
@@ -63,15 +64,29 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav>
-              <Link style={{ color: "white", marginTop: "1em" ,cursor:"pointer"}} to="home">
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Link>
+                <Link
+                  style={{
+                    color: "white",
+                    marginTop: "1em",
+                    cursor: "pointer",
+                  }}
+                  to="home"
+                >
+                  <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                </Link>
               </Nav>
             </Nav.Item>
 
             <Nav.Item>
               <Nav>
-                <Link style={{ color: "white", marginTop: "1em" ,cursor:"pointer" }} to="about">
+                <Link
+                  style={{
+                    color: "white",
+                    marginTop: "1em",
+                    cursor: "pointer",
+                  }}
+                  to="about"
+                >
                   <AiOutlineUser style={{ marginBottom: "2px" }} /> About
                 </Link>
               </Nav>
@@ -79,24 +94,34 @@ function NavBar() {
 
             <Nav.Item>
               <Nav>
-              <Link style={{ color: "white", marginTop: "1em" ,cursor:"pointer" }} to="project">
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Link>
+                <Link
+                  style={{
+                    color: "white",
+                    marginTop: "1em",
+                    cursor: "pointer",
+                  }}
+                  to="project"
+                >
+                  <AiOutlineFundProjectionScreen
+                    style={{ marginBottom: "2px" }}
+                  />{" "}
+                  Projects
+                </Link>
               </Nav>
             </Nav.Item>
-          
-          
+
             <Nav.Item>
               <Nav>
-              <Link style={{ color: "white", marginTop: "1em" ,cursor:"pointer" }} to="contact">
-                <AiTwotonePhone
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Contact
-              </Link>
+                <Link
+                  style={{
+                    color: "white",
+                    marginTop: "1em",
+                    cursor: "pointer",
+                  }}
+                  to="contact"
+                >
+                  <AiTwotonePhone style={{ marginBottom: "2px" }} /> Contact
+                </Link>
               </Nav>
             </Nav.Item>
 
@@ -107,8 +132,10 @@ function NavBar() {
                   color: "white",
                   marginTop: "20px",
                 }}
-                href="https://drive.google.com/file/d/1hFgGYf6BXD3lcaoTw3h1kVWDHXMEO-Ic/view?usp=sharing"
-                target={"_blank"}
+                // href="https://drive.google.com/file/d/1hFgGYf6BXD3lcaoTw3h1kVWDHXMEO-Ic/view?usp=sharing"
+                target="_blank"
+                download
+                href={pdf}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} />
                 Resume{" "}
