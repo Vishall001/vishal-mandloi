@@ -23,7 +23,7 @@ function Projects() {
               isBlog={false}
               title="Time Camp"
               description="TimeCamp is a simple, yet feature-rich time tracking app to help you gain insights into your projects and tasks."
-              work=" Made the integratuion pages"
+              work=" Made the integration page"
               ghLink="https://github.com/Vishall001/Time-camp"
               demoLink="https://time-campclone.netlify.app/"
               tech="React, Redux, ChakraUI, Mondgodb, Express"
