@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chatify from "../../Assets/Projects/farfetch.png";
-import bitsOfCode from "../../Assets/Projects/overstock.png";
+import bitsOfCode from "../../Assets/Projects/timecamp.png";
 import booking from "../../Assets/Projects/booking.png";
 function Projects() {
   return (
@@ -17,6 +17,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Time Camp"
+              description="TimeCamp is a simple, yet feature-rich time tracking app to help you gain insights into your projects and tasks."
+              work=" Made the integratuion pages"
+              ghLink="https://github.com/Vishall001/Time-camp"
+              demoLink="https://time-campclone.netlify.app/"
+              tech="React, Redux, ChakraUI, Mondgodb, Express"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -39,19 +51,6 @@ function Projects() {
               ghLink="https://github.com/Vishall001/booking"
               demoLink="https://bookingcom-clone.netlify.app/"
               tech="React, Redux, ChakraUI, Axios"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Overstock"
-              description="Overstock.com, Inc. is an American internet retailer selling primarily furniture headquartered in Midvale, Utah, near Salt Lake City. Controversial businessman Patrick M. Byrne founded Overstock.com in 1999."
-              work=" Made the products pages"
-              ghLink="https://github.com/Vishall001/Overstock-Clone"
-              demoLink="https://reliable-tanuki-4f48a8.netlify.app/"
-              tech="Javascript, HTML, CSS"
             />
           </Col>
         </Row>
