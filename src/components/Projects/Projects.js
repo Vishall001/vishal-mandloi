@@ -39,7 +39,7 @@ function Projects() {
               isBlog={false}
               title="Flipkart_clone"
               description="Flipkart Private Limited is an Indian e-commerce company, headquartered in Bengaluru, and incorporated in Singapore as a private limited company. Here you can buy any products that you need in your day-to-day life."
-              work="Made the Homepage"
+              work=" Made the whole website"
               ghLink="https://github.com/Vishall001/Flipkart_Clone"
               demoLink="https://clone-flipkartt.netlify.app/"
               tech="React, Redux, MaterialUI, Axios, Express, Mondgodb, Redux-thunk, "
@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="Restaurent_App"
               description="It is a restaurent app where you can buy an products like icecream, fruits etc. It has very attractive UI. It has two section one for admin & one for customer. Admin can add products to any of the category with the help of firebase."
-              work=" Made the Homepage"
+              work=" Made the whole website"
               ghLink="https://github.com/Vishall001/Restaurent_App"
               demoLink="https://restaurentt-app.netlify.app/"
               tech="React, Redux, tailwindcss, Axios, Firebase"
