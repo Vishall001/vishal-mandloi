@@ -50,7 +50,7 @@ function Projects() {
               imgPath={restaurent}
               isBlog={false}
               title="Restaurent_App"
-              description="It is a restaurent app where you can buy an products like icecream, fruits etc. It has very attractive UI. It has two section one for admin & one for customer. Admin can add products to any of the category with the help of firebase."
+              description="It is a restaurent app where you can buy any products like icecream, fruits etc. It has very attractive UI. It has two section one for admin & one for customer. Admin can add products to any of the category with the help of firebase."
               work=" Made the whole website"
               ghLink="https://github.com/Vishall001/Restaurent_App"
               demoLink="https://restaurentt-app.netlify.app/"
