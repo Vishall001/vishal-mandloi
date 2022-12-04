@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import chatify from "../../Assets/Projects/farfetch.png";
 import bitsOfCode from "../../Assets/Projects/timecamp.png";
 import booking from "../../Assets/Projects/booking.png";
+import restaurent from "../../Assets/Projects/restaurent.png";
+import flipkart from "../../Assets/Projects/flipkart.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section" id="project">
@@ -29,18 +32,32 @@ function Projects() {
               tech="React, Redux, ChakraUI, Mondgodb, Express"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={flipkart}
               isBlog={false}
-              title="Farfetch"
-              description="Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world. The company was founded in 2007 by the Portuguese entrepreneur"
-              work=" Made the Cart and a payment page"
-              ghLink="https://github.com/Vishall001/Farfetch-Clone"
-              demoLink="https://peaceful-stroopwafel-aba1de.netlify.app/"
-              tech="HTML, CSS, Javascript"
+              title="Flipkart_clone"
+              description="Flipkart Private Limited is an Indian e-commerce company, headquartered in Bengaluru, and incorporated in Singapore as a private limited company. Here you can buy any products that you need in your day-to-day life."
+              work="Made the Homepage"
+              ghLink="https://github.com/Vishall001/Flipkart_Clone"
+              demoLink="https://clone-flipkartt.netlify.app/"
+              tech="React, Redux, MaterialUI, Axios, Express, Mondgodb, Redux-thunk, "
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={restaurent}
+              isBlog={false}
+              title="Restaurent_App"
+              description="It is a restaurent app where you can buy an products like icecream, fruits etc. It has very attractive UI. It has two section one for admin & one for customer. Admin can add products to any of the category with the help of firebase."
+              work=" Made the Homepage"
+              ghLink="https://github.com/Vishall001/Restaurent_App"
+              demoLink="https://restaurentt-app.netlify.app/"
+              tech="React, Redux, tailwindcss, Axios, Firebase"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={booking}
@@ -51,6 +68,18 @@ function Projects() {
               ghLink="https://github.com/Vishall001/booking"
               demoLink="https://bookingcom-clone.netlify.app/"
               tech="React, Redux, ChakraUI, Axios"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Farfetch"
+              description="Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world. The company was founded in 2007 by the Portuguese entrepreneur"
+              work=" Made the Cart and a payment page"
+              ghLink="https://github.com/Vishall001/Farfetch-Clone"
+              demoLink="https://peaceful-stroopwafel-aba1de.netlify.app/"
+              tech="HTML, CSS, Javascript"
             />
           </Col>
         </Row>
