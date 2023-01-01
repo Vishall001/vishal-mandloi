@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vishal-mandloi/static/css/main.4991f632.css",
-    "main.js": "/vishal-mandloi/static/js/main.e94cb7c1.js",
+    "main.js": "/vishal-mandloi/static/js/main.03a282a5.js",
     "static/js/988.30bf5513.chunk.js": "/vishal-mandloi/static/js/988.30bf5513.chunk.js",
     "static/media/about.png": "/vishal-mandloi/static/media/about.830851674489f1fb9abd.png",
     "static/media/spotify.png": "/vishal-mandloi/static/media/spotify.e39e7ea587a8d9071d9a.png",
@@ -15,11 +15,11 @@
     "static/media/pre.svg": "/vishal-mandloi/static/media/pre.1605f15a40ea6e495039.svg",
     "index.html": "/vishal-mandloi/index.html",
     "main.4991f632.css.map": "/vishal-mandloi/static/css/main.4991f632.css.map",
-    "main.e94cb7c1.js.map": "/vishal-mandloi/static/js/main.e94cb7c1.js.map",
+    "main.03a282a5.js.map": "/vishal-mandloi/static/js/main.03a282a5.js.map",
     "988.30bf5513.chunk.js.map": "/vishal-mandloi/static/js/988.30bf5513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4991f632.css",
-    "static/js/main.e94cb7c1.js"
+    "static/js/main.03a282a5.js"
   ]
 }
