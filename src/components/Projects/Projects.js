@@ -7,7 +7,7 @@ import bitsOfCode from "../../Assets/Projects/timecamp.png";
 import booking from "../../Assets/Projects/booking.png";
 import restaurent from "../../Assets/Projects/restaurent.png";
 import flipkart from "../../Assets/Projects/flipkart.png";
-
+import spotify from "../../Assets/Projects/spotify.png";
 function Projects() {
   return (
     <Container fluid className="project-section" id="project">
@@ -22,10 +22,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={spotify}
+              isBlog={false}
+              title="Spotify-Clone"
+              description="Music player website similar to Spotify made with the help of rapidapi. Made the website fully responsive with the help of tailwindcss. User can play any song user can search for songs with its name. User can see the top songs & top artists user can also see songs detail"
+              work=" Made the integration page"
+              ghLink="https://github.com/Vishall001/Spotify_Clone"
+              demoLink="https://spotify-colone.netlify.app/"
+              tech="Vitejs, Redux, Rapidapi, Axios, Tailwindcss"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Time Camp"
-              description="TimeCamp is a simple, yet feature-rich time tracking app to help you gain insights into your projects and tasks."
+              description="TimeCamp is a simple, yet feature-rich time tracking app to help you gain insights into your projects and tasks. The site is fully responsive made it with the help of chakraUI. User can Signup and Login. User can add their projects to track the productivity and user can also make their tags"
               work=" Made the integration page"
               ghLink="https://github.com/Vishall001/Time-camp"
               demoLink="https://time-campclone.netlify.app/"
@@ -37,7 +50,7 @@ function Projects() {
             <ProjectCard
               imgPath={flipkart}
               isBlog={false}
-              title="Flipkart_clone"
+              title="Flipkart-Clone"
               description="Flipkart Private Limited is an Indian e-commerce company, headquartered in Bengaluru, and incorporated in Singapore as a private limited company. Here you can buy any products that you need in your day-to-day life."
               work=" Made the whole website"
               ghLink="https://github.com/Vishall001/Flipkart_Clone"
@@ -49,7 +62,7 @@ function Projects() {
             <ProjectCard
               imgPath={restaurent}
               isBlog={false}
-              title="Restaurent_App"
+              title="Restaurent-App"
               description="It is a restaurent app where you can buy any products like icecream, fruits etc. It has very attractive UI. It has two section one for admin & one for customer. Admin can add products to any of the category with the help of firebase."
               work=" Made the whole website"
               ghLink="https://github.com/Vishall001/Restaurent_App"
