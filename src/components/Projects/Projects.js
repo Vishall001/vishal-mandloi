@@ -20,20 +20,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={spotify}
               isBlog={false}
               title="Spotify-Clone"
               description="Music player website similar to Spotify made with the help of rapidapi. Made the website fully responsive with the help of tailwindcss. User can play any song user can search for songs with its name. User can see the top songs & top artists user can also see songs detail"
-              work=" Made the integration page"
+              work=" Made the whole website"
               ghLink="https://github.com/Vishall001/Spotify_Clone"
               demoLink="https://spotify-colone.netlify.app/"
               tech="Vitejs, Redux, Rapidapi, Axios, Tailwindcss"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -46,7 +46,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={flipkart}
               isBlog={false}
@@ -58,7 +58,7 @@ function Projects() {
               tech="React, Redux, MaterialUI, Axios, Express, Mondgodb, Redux-thunk, "
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={restaurent}
               isBlog={false}
@@ -71,7 +71,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={booking}
               isBlog={false}
@@ -83,7 +83,7 @@ function Projects() {
               tech="React, Redux, ChakraUI, Axios"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
