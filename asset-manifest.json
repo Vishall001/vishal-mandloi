@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/vishal-mandloi/static/css/main.4991f632.css",
-    "main.js": "/vishal-mandloi/static/js/main.fcda9fc2.js",
+    "main.js": "/vishal-mandloi/static/js/main.cc3d4fdc.js",
     "static/js/988.30bf5513.chunk.js": "/vishal-mandloi/static/js/988.30bf5513.chunk.js",
     "static/media/about.png": "/vishal-mandloi/static/media/about.830851674489f1fb9abd.png",
+    "static/media/spotify.png": "/vishal-mandloi/static/media/spotify.e39e7ea587a8d9071d9a.png",
     "static/media/profile.jpeg": "/vishal-mandloi/static/media/profile.44a0b70102bd2b5cbe1d.jpeg",
     "static/media/timecamp.png": "/vishal-mandloi/static/media/timecamp.e01148ef5fabf84e793d.png",
     "static/media/flipkart.png": "/vishal-mandloi/static/media/flipkart.dcff1469986eac31d2eb.png",
@@ -14,11 +15,11 @@
     "static/media/pre.svg": "/vishal-mandloi/static/media/pre.1605f15a40ea6e495039.svg",
     "index.html": "/vishal-mandloi/index.html",
     "main.4991f632.css.map": "/vishal-mandloi/static/css/main.4991f632.css.map",
-    "main.fcda9fc2.js.map": "/vishal-mandloi/static/js/main.fcda9fc2.js.map",
+    "main.cc3d4fdc.js.map": "/vishal-mandloi/static/js/main.cc3d4fdc.js.map",
     "988.30bf5513.chunk.js.map": "/vishal-mandloi/static/js/988.30bf5513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4991f632.css",
-    "static/js/main.fcda9fc2.js"
+    "static/js/main.cc3d4fdc.js"
   ]
 }
