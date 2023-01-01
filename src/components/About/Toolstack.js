@@ -8,6 +8,7 @@ import {
   SiBootstrap,
   SiNetlify,
   SiChakraui,
+  SiTailwindcss,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -45,6 +46,12 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
         <h5>Netlify</h5>
+
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+        <h5>Tailwindcss</h5>
 
       </Col>
     </Row>
