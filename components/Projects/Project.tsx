@@ -240,7 +240,7 @@ function Project({
                       loop
                       playsInline
                       preload="auto"
-                      poster={images.poster || "/assets/Spinner-3.gif"}
+                      poster={images.poster || "./assets/Spinner-3.gif"}
                       muted
                       controls
                       style={{

@@ -91,8 +91,8 @@ function Footer() {
         className={classes.wave}
         src={
           theme.palette.type === "dark"
-            ? "/assets/footer-wave-dark.svg"
-            : "/assets/footer-wave-light.svg"
+            ? "./assets/footer-wave-dark.svg"
+            : "./assets/footer-wave-light.svg"
         }
         alt="wave for styling and separating sections"
       />
@@ -165,7 +165,7 @@ function Footer() {
                 >
                   <Hidden xsDown>
                     <img
-                      src="/assets/message.svg"
+                      src="./assets/message.svg"
                       className={classes.illustration}
                       alt="message illustration"
                     />
