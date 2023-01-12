@@ -139,7 +139,7 @@ function Skills() {
                <img
                 width={1144}
                 height={617}
-                src="../../public/assets/github-dots.svg"
+                src="./assets/github-dots.svg"
                 alt="Github illustration"
                 className={classes.illustration}
               /> 
