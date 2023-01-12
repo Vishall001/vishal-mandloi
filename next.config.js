@@ -1,27 +1,11 @@
-module.exports = {
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.svg$/,
-      issuer: {
-        test: /\.(js|ts)x?$/,
-      },
-      use: ["@svgr/webpack"],
-    });
-    return config;
+/**
+   * @type {import('next').NextConfig}
+   */
+const nextConfig   = {
+  images: {
+    loader: 'akamai',
+    path: '',
   },
 };
 
-module.exports = {
-  images: {
-      unoptimized: true
-  }
-}
-
-// module.exports = {
-//   images: {
-//     disableStaticImages: true
-//   }
-// }
-
-const withImages = require("next-images");
-module.exports = withImages();
+module.exports = nextConfig;
