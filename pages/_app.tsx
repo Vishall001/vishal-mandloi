@@ -179,7 +179,6 @@ export function MyApp({ Component, pageProps }: AppProps) {
       navbarRight: {
         marginLeft: "auto",
         marginRight: theme.spacing(0),
-        border:"5px solid red",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -189,6 +188,8 @@ export function MyApp({ Component, pageProps }: AppProps) {
       },
       navbarRightButtons: {
         marginRight: theme.spacing(4),
+        border:"5px solid red",
+        color:"white"
       },
       chevronIcon: {
         marginLeft: theme.spacing(2),
