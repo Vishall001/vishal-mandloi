@@ -383,7 +383,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
           >{`< Vishal />`}</Typography>
           {/* </Link> */}
           <div className={classes.navbarRight}>
-            <Hidden mdDown>
+          
               <Box mr={2}>
                 {NavBarButton("Home", "home")}
                 {NavBarButton("Tools and skills", "skills")}
@@ -400,7 +400,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
                 </Link>
                 {NavBarButton("Contact me", "contact")}
               </Box>
-            </Hidden>
+          
             <DarkModeIcon />
             <Hidden lgUp>
               <IconButton
