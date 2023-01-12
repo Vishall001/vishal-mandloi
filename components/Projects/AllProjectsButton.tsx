@@ -45,8 +45,8 @@ function Github() {
         Days I Code
       </h1>
       <GitHubCalendar
-        className="project-heading"
        style={{width:"100%",margin:"auto"}}
+       
         username="Vishall001"
         blockSize={15}
         blockMargin={5}
@@ -56,4 +56,5 @@ function Github() {
     </Row>
   );
 }
+
 
