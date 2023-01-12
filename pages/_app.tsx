@@ -188,7 +188,6 @@ export function MyApp({ Component, pageProps }: AppProps) {
       },
       navbarRightButtons: {
         marginRight: theme.spacing(4),
-        border:"5px solid red",
         color:"white"
       },
       chevronIcon: {
@@ -383,7 +382,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
           >{`< Vishal />`}</Typography>
           {/* </Link> */}
           <div className={classes.navbarRight}>
-          
+            <Hidden mdDown>
               <Box mr={2}>
                 {NavBarButton("Home", "home")}
                 {NavBarButton("Tools and skills", "skills")}
@@ -400,7 +399,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
                 </Link>
                 {NavBarButton("Contact me", "contact")}
               </Box>
-          
+            </Hidden>
             <DarkModeIcon />
             <Hidden lgUp>
               <IconButton
