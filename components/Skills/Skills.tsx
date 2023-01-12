@@ -5,8 +5,7 @@ import { Box, Grid, Typography, Container, Toolbar } from "@material-ui/core";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 
 import Icon from "./Icon";
-// import githubDots from "../../public/assets/github-dots.svg";
-import logos from "../../lib/logos";
+import logos from "lib/logos";
 
 type iconsArray = {
   label: string ;
