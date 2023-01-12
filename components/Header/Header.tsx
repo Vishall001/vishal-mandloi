@@ -72,7 +72,7 @@ function Header() {
               <img
               // style={{padding:"0 20px 0 20px"}}
                 className={classes.headerImg}
-                src="/assets/profile.jpeg"
+                src="./assets/profile.jpeg"
                 alt="programmer illustration"
               />
             </Grid>
