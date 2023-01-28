@@ -7,6 +7,8 @@ import bitsOfCode from "../../Assets/Projects/timecamp.png";
 import booking from "../../Assets/Projects/booking.png";
 import restaurent from "../../Assets/Projects/restaurent.png";
 import flipkart from "../../Assets/Projects/flipkart.png";
+import fitness from "../../Assets/Projects/fitness.png";
+
 import spotify from "../../Assets/Projects/spotify.png";
 function Projects() {
   return (
@@ -48,6 +50,19 @@ function Projects() {
 
           <Col md={5} className="project-card">
             <ProjectCard
+              imgPath={fitness}
+              isBlog={false}
+              title="Fitness-App"
+              description="It is a fitness app made with the help of react and typescript and tailwindcss. Made this app to get familiar with typescript. It has very attractive UI. "
+              work=" Made the whole website"
+              ghLink="https://github.com/Vishall001/Fitness_App"
+              demoLink="https://fitness-appp.netlify.app/"
+              tech="React, Vitejs, Tailwindcss, Typescript"
+            />
+          </Col>
+
+          <Col md={5} className="project-card">
+            <ProjectCard
               imgPath={flipkart}
               isBlog={false}
               title="Flipkart-Clone"
@@ -67,7 +82,7 @@ function Projects() {
               work=" Made the whole website"
               ghLink="https://github.com/Vishall001/Restaurent_App"
               demoLink="https://restaurentt-app.netlify.app/"
-              tech="React, Redux, tailwindcss, Axios, Firebase"
+              tech="React, Redux, Tailwindcss, Axios, Firebase"
             />
           </Col>
 
